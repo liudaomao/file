@@ -1,0 +1,23 @@
+Host github_163
+	HostName github.com
+	IdentityFile ~\.ssh\_163
+	PreferredAuthentications publickey
+	User git
+	
+Host github_outlook
+	HostName github.com
+	IdentityFile ~\.ssh\_outlook
+	PreferredAuthentications publickey
+	User git
+	
+Host gitee_outlook
+	HostName gitee.com
+	IdentityFile ~\.ssh\_outlook
+	PreferredAuthentications publickey
+	User git
+
+Host gitee_163
+	HostName gitee.com
+	IdentityFile ~\.ssh\_163
+	PreferredAuthentications publickey
+	User git
